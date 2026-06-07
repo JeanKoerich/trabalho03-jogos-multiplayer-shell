@@ -1,0 +1,14 @@
+[2026-06-07 13:35:00] Removendo diretórios antigos que podem ser recriados.
+[2026-06-07 13:35:00] [OK] Estrutura temática criada em /app/jogos-multiplayer.
+/app/jogos-multiplayer
+/app/jogos-multiplayer/dados
+/app/jogos-multiplayer/dados/README.txt
+/app/jogos-multiplayer/backups
+/app/jogos-multiplayer/ranking
+/app/jogos-multiplayer/ranking/classificacao.txt
+/app/jogos-multiplayer/partidas
+/app/jogos-multiplayer/partidas/historico_partidas.txt
+/app/jogos-multiplayer/publicacao
+/app/jogos-multiplayer/jogadores
+/app/jogos-multiplayer/jogadores/cadastro_inicial.txt
+/app/jogos-multiplayer/logs

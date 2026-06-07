@@ -1,0 +1,57 @@
+==================================================
+ RELATÓRIO OPERACIONAL - JOGOS MULTIPLAYER
+==================================================
+Data e hora: 2026-06-07 13:37:46
+Aluno: Jean Koerich
+Projeto: Servidor de Jogos Multiplayer com Pong Online
+
+===== ESPAÇO EM DISCO =====
+Filesystem      Size  Used Avail Use% Mounted on
+overlay        1007G  3.8G  952G   1% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+C:\             476G  378G   98G  80% /app/logs
+/dev/sdd       1007G  3.8G  952G   1% /etc/hosts
+tmpfs           3.9G     0  3.9G   0% /proc/acpi
+tmpfs           3.9G     0  3.9G   0% /proc/scsi
+tmpfs           3.9G     0  3.9G   0% /sys/firmware
+
+===== USO DOS DIRETÓRIOS =====
+48K	/app/jogos-multiplayer
+4.0K	/app/backups
+9.0K	/app/logs
+24K	/var/www/html
+
+===== STATUS DO APACHE =====
+Apache em execução
+
+===== ÚLTIMOS BACKUPS =====
+total 4.0K
+-rw-r--r-- 1 root root 538 Jun  7 13:35 backup_jogos_multiplayer_2026-06-07_13-35-24.tar.gz
+
+===== ÚLTIMOS LOGS =====
+total 9.0K
+-rw-r--r-- 1 root root 1.1K Jun  7 13:37 relatorio_execucao.txt
+-rw-r--r-- 1 root root 1.2K Jun  7 13:37 usuarios_permissoes.log
+-rw-r--r-- 1 root root  246 Jun  7 13:36 monitoramento.log
+-rw-r--r-- 1 root root  301 Jun  7 13:35 deploy.log
+-rw-r--r-- 1 root root  278 Jun  7 13:35 backup.log
+-rw-r--r-- 1 root root  597 Jun  7 13:35 estrutura.log
+-rw-r--r-- 1 root root  190 Jun  7 13:34 apache.log
+-rw-r--r-- 1 root root  117 Jun  7 13:34 update.log
+
+===== ARQUIVOS PUBLICADOS =====
+/var/www/html/assets/style.css
+/var/www/html/index.html
+/var/www/html/sobre.html
+
+===== USUÁRIOS TEMÁTICOS =====
+pong_user:x:999:1001::/app/jogos-multiplayer:/usr/sbin/nologin
+jogos_ops:x:1001:
+
+===== PERMISSÕES PRINCIPAIS =====
+drwxr-x--- 1 pong_user jogos_ops 4096 Jun  7 13:35 /app/jogos-multiplayer
+drwxrwx--- 2 pong_user jogos_ops 4096 Jun  7 13:35 /app/jogos-multiplayer/backups
+drwxrwx--- 2 pong_user jogos_ops 4096 Jun  7 13:04 /app/jogos-multiplayer/dados
+drwxrwx--- 2 pong_user jogos_ops 4096 Jun  7 13:35 /app/jogos-multiplayer/logs
+drwxrwx--- 2 pong_user jogos_ops 4096 Jun  7 13:35 /app/jogos-multiplayer/partidas

@@ -1,0 +1,17 @@
+services:
+  jogos-linux:
+    build:
+      context: .
+    container_name: ${CONTAINER_NAME:-trabalho03-jogos-linux}
+    ports:
+      - "${APACHE_PORT:-8080}:80"
+    volumes:
+      - jogos-dados:/app/jogos-multiplayer/dados
+      - ./backups:/app/backups
+      - ./logs:/app/logs
+      - ./evidencias:/app/evidencias
+      - ./source:/app/source
+    restart: unless-stopped
+
+volumes:
+  jogos-dados:
